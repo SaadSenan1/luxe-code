@@ -190,7 +190,11 @@ export function HeroScene() {
         <FloatingCube position={[-2, -2.5, 0]} color="#b8860b" />
         <FloatingCube position={[3, 1, -4]} color="#c9a84c" />
 
-        <Environment preset="night" />
+       <Environment
+  files="https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/1k/venice_sunset_1k.hdr"
+  background
+/>
+<CameraRig />
         <CameraRig />
       </Suspense>
     </Canvas>
